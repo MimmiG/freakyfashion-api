@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace FreakyFashionAPI.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/products")] // Explicitly defining the route to match frontend calls
     public class ProductsController : ControllerBase
     {
         private readonly ProductRepository _repository;
